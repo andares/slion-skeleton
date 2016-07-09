@@ -1,0 +1,25 @@
+{
+    "name": "slion/slion-skeleton",
+    "description": "skeleton for slion framework",
+    "type": "Framework skeleton",
+    "license": "LGPL3.0",
+    "authors": [
+        {
+            "name": "Andares Merigold",
+            "email": "andares@outlook.com"
+        }
+    ],
+    "require": {
+        "php": ">=7.0.0",
+        "slim/php-view": "^2.0",
+        "illuminate/database": "^5.2",
+        "slion/slion": "^0.1"
+    },
+    "scripts": {
+        "post-create-project-cmd": [
+            "php -r \"copy('vendor\\slion\\slion\\chord', 'chord');\"",
+            "chmod +x chord",
+        ],
+    },
+    "minimum-stability": "stable"
+}
