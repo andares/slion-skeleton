@@ -6,6 +6,9 @@ return [
     'php_ini'   => [
         'assert.exception'  => 1,
     ],
+    'helpers'   => [    // 自定义helper方法库
+        __DIR__ . '/helpers.php',
+    ],
     'tracy'     => [
         'is_prod'       => null, // 设置 null 时跟 displayErrorDetails 配置走
         'max_depth'     => 6,
