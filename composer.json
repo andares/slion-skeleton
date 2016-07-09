@@ -17,8 +17,8 @@
     "scripts": {
         "post-create-project-cmd": [
             "php -r \"copy('vendor\\slion\\slion\\chord', 'chord');\"",
-            "chmod +x chord",
-        ],
+            "chmod +x chord"
+        ]
     },
     "minimum-stability": "stable"
 }
