@@ -9,8 +9,7 @@ if (PHP_SAPI == 'cli-server') {
     }
 }
 
-// 定义应用目录并载入composer
-const APP_SETTINGS = __DIR__ . DIRECTORY_SEPARATOR . '..' . DIRECTORY_SEPARATOR . 'src' . DIRECTORY_SEPARATOR . 'settings.php';;
+$settings = require __DIR__ . '/../src/settings.php';
 require __DIR__ . '/../vendor/autoload.php';
 
 // Set up dependencies

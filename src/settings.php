@@ -8,26 +8,8 @@ return [
         'renderer' => [
             'template_path' => __DIR__ . '/../templates/',
         ],
-
-        'slion' => [
-            'libraries' => [ // 需要通过autoload导入的目录
-                __DIR__ . '/classes',
-            ],
-            'tracy'     => [
-                'mode'          => null, // 设置 null 时跟 displayErrorDetails 配置走
-                'log_dir'       => __DIR__ . '/../logs',
-                'max_depth'     => 6,
-                'max_length'    => 100,
-            ],
-            'config'    => [
-                'base_dir'  => __DIR__ . '/config',
-                'scene'     => 'dev',
-                'scene_def' => 'default',
-            ],
-            'dict'      => [
-                'base_dir'  => __DIR__ . '/i18n',
-                'lang'      => 'zh_CN.utf8',
-            ],
-        ],
     ],
+
+    // slion settings
+    'slion_settings' => require __DIR__ . '/slion_settings.php',
 ];

@@ -12,7 +12,6 @@
     "require": {
         "php": ">=7.0.0",
         "slim/php-view": "^2.0",
-        "illuminate/database": "^5.2",
         "slion/slion": "^0.1"
     },
     "scripts": {
