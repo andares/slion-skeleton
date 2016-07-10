@@ -9,6 +9,7 @@ return [
     'helpers'   => [    // 自定义helper方法库
         __DIR__ . '/helpers.php',
     ],
+    'pack'      => [], // pack 配置
     'tracy'     => [
         'is_prod'       => null, // 设置 null 时跟 displayErrorDetails 配置走
         'max_depth'     => 6,
