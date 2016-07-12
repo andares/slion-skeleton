@@ -15,6 +15,9 @@ require __DIR__ . '/../vendor/autoload.php';
 // Set up dependencies
 require __DIR__ . '/../src/dependencies.php';
 
+// Register hooks
+require __DIR__ . '/../src/hooks.php';
+
 // Register middleware
 require __DIR__ . '/../src/middleware.php';
 

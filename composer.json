@@ -12,7 +12,8 @@
     "require": {
         "php": ">=7.0.0",
         "slim/php-view": "^2.0",
-        "slion/slion": "^0.1"
+        "slion/slion-db": "^1.0",
+        "slion/slion": "^1.0"
     },
     "scripts": {
         "post-create-project-cmd": [
