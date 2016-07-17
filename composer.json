@@ -17,8 +17,10 @@
     },
     "scripts": {
         "post-create-project-cmd": [
-            "php -r \"copy('vendor\\slion\\slion\\chord', 'chord');\"",
-            "chmod +x chord"
+            "php -r \"copy('vendor/slion/slion/chord', 'chord');\"",
+            "chmod +x chord",
+            "php -r \"copy('vendor/slion/slion/src/settings.php', 'src/');\"",
+            "php -r \"copy('vendor/slion/slion/src/slion_settings.php', 'src/');\""
         ]
     },
     "minimum-stability": "stable"
