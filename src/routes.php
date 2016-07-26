@@ -8,6 +8,8 @@ $app->get('/', function ($request, $response, $args) {
     return $this->renderer->render($response, 'index.phtml', $args);
 });
 
+// slion dispatcher
+\Slion\Init::dispatchByRoutes($app, cf('routes'));
 
 // restful api
 $app->get('/rest/{category}/{name}/{ids:.*}', function ($request, $response, $args) {
