@@ -1,7 +1,4 @@
 <?php
-use Slim\{App, Container};
-use Slion\{Run, Pack};
-
 $run = $GLOBALS['run'];
 /* @var $run \Slion\Run */
 $run->add('app', __DIR__)

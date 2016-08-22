@@ -21,9 +21,9 @@
     ],
     "require": {
         "php": ">=7.0.0",
-        "slim/php-view": "^2.0",
+        "slion/slion": "dev-master",
         "slion/slion-db": "dev-master",
-        "slion/slion": "dev-master"
+        "slim/php-view": "^2.0"
     },
     "scripts": {
         "post-update-cmd": [
